@@ -25,7 +25,8 @@ This project demonstrates the full ML workflow — from **data cleaning** and **
 ```
 ├── Movie-Recommendor-system.ipynb   # Notebook: data cleaning, preprocessing, model building
 ├── movie_dict.pkl                   # Dictionary mapping movie titles to metadata
-├── generate_similarity.py           # Script to generate similarity.pkl
+├── similarity.pkl                   # Precomputed similarity matrix (Git LFS)
+├── generate_similarity.py           # Script to regenerate similarity.pkl
 ├── app.py                           # Streamlit web application
 ├── requirements.txt                 # Dependencies
 ├── MARICINEMA.png                   # Logo image
@@ -51,19 +52,18 @@ This project demonstrates the full ML workflow — from **data cleaning** and **
    pip install -r requirements.txt
    ```
 
-3. Generate the similarity matrix (required for recommendations)
-
+   **Note:** This repository uses Git LFS for large files. If you don't have Git LFS installed, install it from [git-lfs.github.io](https://git-lfs.github.io/) or run:
    ```bash
-   python generate_similarity.py
+   git lfs install
    ```
 
-4. Run the Streamlit app
+3. Run the Streamlit app (similarity.pkl is already included)
 
    ```bash
    streamlit run app.py
    ```
 
-5. (Optional) Get TMDB API key for real movie posters
+4. (Optional) Get TMDB API key for real movie posters
 
    - Go to [TMDB API](https://www.themoviedb.org/settings/api)
    - Create an account and request an API key
