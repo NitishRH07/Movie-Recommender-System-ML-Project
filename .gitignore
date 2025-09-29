@@ -51,7 +51,7 @@ Thumbs.db
 # *.json
 
 # Model files (if too large for GitHub)
-# *.pkl
+similarity.pkl
 # *.joblib
 # *.h5
 # *.model
