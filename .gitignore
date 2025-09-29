@@ -51,7 +51,7 @@ Thumbs.db
 # *.json
 
 # Model files (if too large for GitHub)
-similarity.pkl
+# similarity.pkl  # Now tracked with Git LFS
 # *.joblib
 # *.h5
 # *.model
