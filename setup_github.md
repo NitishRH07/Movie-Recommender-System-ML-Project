@@ -55,4 +55,4 @@ git push -u origin main
 - ✅ `.gitignore` - Git ignore rules
 - ✅ `MARICINEMA.png` - Logo
 - ✅ `MARICINEMA_BACKGROUND.jpg` - Background image
-- ✅ `Example.png` & `Example (2).png` - Screenshots
+- ✅ `IMAGE_INPUT.png` & `IMAGE_OUTPUT.png` - Screenshots

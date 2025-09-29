@@ -30,7 +30,8 @@ This project demonstrates the full ML workflow — from **data cleaning** and **
 ├── requirements.txt                 # Dependencies
 ├── MARICINEMA.png                   # Logo image
 ├── MARICINEMA_BACKGROUND.jpg        # Background image
-└── Example.png / Example (2).png    # Screenshots of recommendations
+├── IMAGE_INPUT.png                  # Input interface screenshot
+└── IMAGE_OUTPUT.png                 # Output recommendations screenshot
 ```
 
 ---
@@ -91,11 +92,11 @@ This project demonstrates the full ML workflow — from **data cleaning** and **
 
 ## 🎥 Screenshots
 
-Here are some snapshots of the **Streamlit web app** showing movie recommendations:
+Here are some snapshots of the **Streamlit web app** showing the input interface and movie recommendations:
 
-| Recommendation Result           | Another Example                         |
+| Input Interface                 | Recommendation Results                  |
 | ------------------------------- | --------------------------------------- |
-| ![Recommendations](Example.png) | ![Recommendations](Example%20\(2\).png) |
+| ![Input Interface](IMAGE_INPUT.png) | ![Recommendations](IMAGE_OUTPUT.png) |
 
 ---
 
@@ -111,8 +112,8 @@ Here are some snapshots of the **Streamlit web app** showing movie recommendatio
 
 ## 🔗 Connect With Me
 
-* 🌐 GitHub: [Your GitHub Profile]
-* 💼 LinkedIn: [Your LinkedIn Profile]
+* 🌐 GitHub: [https://github.com/NitishRH07]
+* 💼 LinkedIn: [https://www.linkedin.com/in/nitish-r-honnali-798442327/]
 
 ---
 
