@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # --- Constants ---
-API_KEY = "312003ee82fecfe440337e6036c2dcbd"
+API_KEY = "TMDB_YOUR-API_KEY"
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 FALLBACK_POSTER = "https://via.placeholder.com/300x450/2b2b2b/ffffff?text=No+Poster"
